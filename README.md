@@ -1,6 +1,4 @@
-# Composer template for Drupal projects
-
-[![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
+# Composer template for Drupal joinbox projects
 
 This project template provides a starter kit for managing your site
 dependencies with [Composer](https://getcomposer.org/).
@@ -18,18 +16,13 @@ You might need to replace `composer` with `php composer.phar` (or similar)
 for your setup.
 
 After that you can create the project:
+Visit the [Readme](https://github.com/joinbox/drupal-joinbox-theme/blob/master/README.md) for the installation guide.
 
 ```
-composer create-project drupal-composer/drupal-project:8.x-dev some-dir --stability dev --no-interaction
+composer create-project joinbox/drupal-project:8.x-dev some-dir --stability dev --no-interaction
 ```
 
-With `composer require ...` you can download new dependencies to your 
-installation.
 
-```
-cd some-dir
-composer require drupal/devel:~1.0
-```
 
 The `composer create-project` command passes ownership of all files to the 
 project that is created. You should create a new git repository, and commit 
