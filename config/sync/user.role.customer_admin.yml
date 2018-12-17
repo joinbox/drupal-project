@@ -1,0 +1,25 @@
+uuid: d24545e6-5393-42c1-b7fc-234c44faaed9
+langcode: de
+status: true
+dependencies: {  }
+id: customer_admin
+label: 'Administrator (Kunde)'
+weight: -7
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer account settings'
+  - 'administer menu'
+  - 'administer nodes'
+  - 'administer url aliases'
+  - 'administer users'
+  - 'bypass node access'
+  - 'cancel account'
+  - 'change own username'
+  - 'create url aliases'
+  - 'translate interface'
+  - 'use text format editor'
+  - 'view own unpublished content'

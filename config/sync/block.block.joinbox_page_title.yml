@@ -1,0 +1,20 @@
+uuid: 3b8183ec-5aa3-4fcb-9cc9-33f3ea4f265c
+langcode: de
+status: true
+dependencies:
+  theme:
+    - joinbox
+_core:
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+id: joinbox_page_title
+theme: joinbox
+region: content
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: Seitentitel
+  provider: core
+  label_display: '0'
+visibility: {  }

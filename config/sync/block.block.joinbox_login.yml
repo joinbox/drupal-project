@@ -1,0 +1,22 @@
+uuid: d485d7c5-4478-4688-9357-e63be10004aa
+langcode: de
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - joinbox
+_core:
+  default_config_hash: 4QlSnWBcxxKMIFRM8sbu_MjSkcp3NjGgnVrc-lynQHI
+id: joinbox_login
+theme: joinbox
+region: header
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: Benutzeranmeldung
+  provider: user
+  label_display: visible
+visibility: {  }

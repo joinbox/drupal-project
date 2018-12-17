@@ -1,0 +1,14 @@
+uuid: d710cafb-df80-453c-946f-6ed96482c6e2
+langcode: de
+status: true
+dependencies:
+  config:
+    - user.role.customer_admin
+  module:
+    - user
+id: user_remove_role_action.customer_admin
+label: 'Den ausgewählten Benutzern die Rolle Administrator (Kunde) entziehen'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: customer_admin

@@ -1,0 +1,17 @@
+uuid: 15e57448-02ad-4101-9c2f-a4b60edfa4b3
+langcode: de
+status: true
+dependencies: {  }
+name: Editor
+format: editor
+weight: -10
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h5 id> <h6 id> <h1> <pre> <p class="paragraph paragraph--primary paragraph--secondary"> <h2 id class="heading heading--h2"> <h3 id class="heading heading--h3"> <h4 id class="heading heading--h4">'
+      filter_html_help: true
+      filter_html_nofollow: false

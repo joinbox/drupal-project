@@ -1,0 +1,17 @@
+uuid: 00660727-6b9f-4bcd-b2ca-dbf2082fb41a
+langcode: de
+status: true
+dependencies: {  }
+id: redaktion
+label: Redaktion
+weight: -8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'change own username'
+  - 'create url aliases'
+  - 'translate interface'
+  - 'use text format editor'
+  - 'view own unpublished content'

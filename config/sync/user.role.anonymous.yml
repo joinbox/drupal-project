@@ -1,0 +1,12 @@
+uuid: 742b4a1e-9256-4e57-a465-34bcd96e0dea
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: Gast
+weight: -10
+is_admin: false
+permissions:
+  - 'access content'

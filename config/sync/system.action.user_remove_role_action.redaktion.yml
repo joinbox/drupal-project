@@ -1,0 +1,14 @@
+uuid: 9713c7f2-b72b-4cce-93f7-19dd21972e91
+langcode: de
+status: true
+dependencies:
+  config:
+    - user.role.redaktion
+  module:
+    - user
+id: user_remove_role_action.redaktion
+label: 'Den ausgewählten Benutzern die Rolle Redaktion entziehen'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: redaktion

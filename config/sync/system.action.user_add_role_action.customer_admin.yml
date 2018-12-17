@@ -1,0 +1,14 @@
+uuid: 69fe74ae-5206-4060-b447-ebe96ebac8ae
+langcode: de
+status: true
+dependencies:
+  config:
+    - user.role.customer_admin
+  module:
+    - user
+id: user_add_role_action.customer_admin
+label: 'Den ausgewählten Benutzern die Rolle Administrator (Kunde) zuweisen'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: customer_admin

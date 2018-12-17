@@ -1,0 +1,22 @@
+uuid: 81d3cdc2-ccd4-4aac-aae0-cb08638ecf1d
+langcode: de
+status: true
+dependencies:
+  theme:
+    - joinbox
+_core:
+  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+id: joinbox_local_tasks
+theme: joinbox
+region: content
+weight: -20
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Reiter
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

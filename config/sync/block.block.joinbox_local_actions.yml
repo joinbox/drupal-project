@@ -1,0 +1,20 @@
+uuid: 8dd1de7e-ada7-4a92-b707-7a245031131b
+langcode: de
+status: true
+dependencies:
+  theme:
+    - joinbox
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: joinbox_local_actions
+theme: joinbox
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primäre Verwaltungsaktionen'
+  provider: core
+  label_display: '0'
+visibility: {  }

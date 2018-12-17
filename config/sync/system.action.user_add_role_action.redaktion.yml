@@ -1,0 +1,14 @@
+uuid: af6eeaeb-9a2c-407a-a43c-969e35bcec27
+langcode: de
+status: true
+dependencies:
+  config:
+    - user.role.redaktion
+  module:
+    - user
+id: user_add_role_action.redaktion
+label: 'Den ausgewählten Benutzern die Rolle Redaktion zuweisen'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: redaktion
