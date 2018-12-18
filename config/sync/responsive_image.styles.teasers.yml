@@ -1,0 +1,25 @@
+uuid: d244f488-1a68-4aab-91a3-c567e442d311
+langcode: de
+status: true
+dependencies:
+  config:
+    - image.style.m
+    - image.style.s
+    - image.style.xs
+  theme:
+    - joinbox
+id: teasers
+label: Teasers
+image_style_mappings:
+  -
+    breakpoint_id: joinbox.s
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: s
+  -
+    breakpoint_id: joinbox.xs
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: xs
+breakpoint_group: joinbox
+fallback_image_style: m

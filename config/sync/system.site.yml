@@ -1,7 +1,7 @@
 uuid: 418ddcd9-34a9-493c-bf68-d93654919922
 name: 'Joinbox Starterkit'
 mail: drupal@joinbox.com
-slogan: ''
+slogan: 'Please provide Search Engine slogan'
 page:
   403: ''
   404: ''

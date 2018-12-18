@@ -1,0 +1,15 @@
+uuid: 78c26a18-46d9-4006-9b86-39e0f3798b75
+langcode: de
+status: true
+dependencies: {  }
+name: l
+label: L
+effects:
+  89c9dd32-08f9-44fe-89dd-bc08c76e0d93:
+    uuid: 89c9dd32-08f9-44fe-89dd-bc08c76e0d93
+    id: image_scale
+    weight: 1
+    data:
+      width: 1280
+      height: 1280
+      upscale: false

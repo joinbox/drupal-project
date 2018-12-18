@@ -1,0 +1,54 @@
+uuid: 76d708d8-74c9-46ff-8123-f7d74adc2afc
+langcode: de
+status: true
+dependencies:
+  config:
+    - image.style.l
+    - image.style.m
+    - image.style.s
+    - image.style.xl
+    - image.style.xs
+    - image.style.xxl
+    - image.style.xxxl
+  theme:
+    - joinbox
+id: full_width_images
+label: 'Full width images'
+image_style_mappings:
+  -
+    breakpoint_id: joinbox.xxxl
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: xxxl
+  -
+    breakpoint_id: joinbox.xxl
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: xxl
+  -
+    breakpoint_id: joinbox.xl
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: xl
+  -
+    breakpoint_id: joinbox.l
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: l
+  -
+    breakpoint_id: joinbox.m
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: m
+  -
+    breakpoint_id: joinbox.s
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: s
+  -
+    breakpoint_id: joinbox.xs
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: xs
+breakpoint_group: joinbox
+fallback_image_style: '_original image_'

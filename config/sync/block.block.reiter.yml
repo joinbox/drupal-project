@@ -1,15 +1,13 @@
-uuid: 81d3cdc2-ccd4-4aac-aae0-cb08638ecf1d
+uuid: 3a7ca970-6011-4be9-bf89-e41f03cbfc5f
 langcode: de
 status: true
 dependencies:
   theme:
     - joinbox
-_core:
-  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
-id: joinbox_local_tasks
+id: reiter
 theme: joinbox
-region: content
-weight: -20
+region: contentbefore
+weight: 0
 provider: null
 plugin: local_tasks_block
 settings:

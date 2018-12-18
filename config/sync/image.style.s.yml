@@ -1,0 +1,15 @@
+uuid: 19823db6-0af6-46cd-8086-8eedfba92788
+langcode: de
+status: true
+dependencies: {  }
+name: s
+label: S
+effects:
+  84b40f16-aac9-4234-9376-514b809c4482:
+    uuid: 84b40f16-aac9-4234-9376-514b809c4482
+    id: image_scale
+    weight: 1
+    data:
+      width: 736
+      height: 736
+      upscale: false

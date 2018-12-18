@@ -1,0 +1,8 @@
+uuid: d28800ed-8804-4e28-9266-7776da359da8
+langcode: de
+status: true
+dependencies: {  }
+id: date_time_short
+label: 'Datum (kurz) mit Zeit'
+locked: false
+pattern: 'd.m.y - H:i'

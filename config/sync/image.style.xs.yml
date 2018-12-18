@@ -1,0 +1,15 @@
+uuid: 05072e35-881f-4516-a75c-cc0e1f7ee934
+langcode: de
+status: true
+dependencies: {  }
+name: xs
+label: XS
+effects:
+  0223911c-8aba-4563-9357-981e402adbef:
+    uuid: 0223911c-8aba-4563-9357-981e402adbef
+    id: image_scale
+    weight: 1
+    data:
+      width: 480
+      height: 480
+      upscale: false

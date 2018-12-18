@@ -1,0 +1,8 @@
+uuid: d96dcb45-550c-4b7e-b22b-81d5e65f8d54
+langcode: de
+status: true
+dependencies: {  }
+id: date_time_medium
+label: 'Datum (mittellang) mit Zeit'
+locked: false
+pattern: 'D, d.m.Y - H:i'

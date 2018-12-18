@@ -1,0 +1,8 @@
+uuid: fa549f4b-9f64-40eb-956c-86ab36173f3d
+langcode: de
+status: true
+dependencies: {  }
+id: date_time_long
+label: 'Datum (lang) mit Zeit'
+locked: false
+pattern: 'l, j. F Y - H:i'
