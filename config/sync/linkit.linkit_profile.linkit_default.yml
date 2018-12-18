@@ -8,11 +8,11 @@ id: linkit_default
 label: 'All Content'
 description: ''
 attributes:
-  title:
-    id: title
+  target:
+    id: target
     weight: 0
     settings:
-      automatic_title: true
+      widget_type: simple_checkbox
 matchers:
   00a31162-854d-495d-8a02-65acbb02b235:
     uuid: 00a31162-854d-495d-8a02-65acbb02b235
@@ -21,5 +21,5 @@ matchers:
     settings:
       result_description: '[node:title]'
       bundles: {  }
-      group_by_bundle: false
+      group_by_bundle: true
       include_unpublished: false

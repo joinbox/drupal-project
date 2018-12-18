@@ -1,0 +1,13 @@
+uuid: 70241374-dfcc-46d9-a473-9ab89d263d17
+langcode: de
+status: true
+dependencies: {  }
+id: audio
+label: Audio
+description: ''
+source: audio_file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_audio_file
+field_map: {  }

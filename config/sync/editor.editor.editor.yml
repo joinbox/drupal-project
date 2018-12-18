@@ -24,7 +24,7 @@ settings:
         -
           name: Links
           items:
-            - DrupalLink
+            - Linkit
             - DrupalUnlink
         -
           name: Listen
@@ -42,7 +42,7 @@ settings:
     language:
       language_list: un
     linkit:
-      linkit_profile: ''
+      linkit_profile: linkit_default
 image_upload:
   status: false
   scheme: public
