@@ -31,6 +31,10 @@ settings:
           items:
             - BulletedList
             - NumberedList
+        -
+          name: Tabelle
+          items:
+            - Table
       -
         -
           name: Werkzeuge
