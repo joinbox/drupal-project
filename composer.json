@@ -24,6 +24,7 @@
         "drupal/ckeditor_tabletoolstoolbar": "^1.0",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
+        "drupal/devel": "^2.0",
         "drupal/google_analytics": "^2.3",
         "drupal/hreflang": "^1.1",
         "drupal/linkit": "^4.3",
