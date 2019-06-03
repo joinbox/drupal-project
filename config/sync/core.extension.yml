@@ -9,6 +9,7 @@ module:
   checklistapi: 0
   ckeditor: 0
   ckeditor_tabletoolstoolbar: 0
+  components: 0
   ctools: 0
   dblog: 0
   devel: 0
